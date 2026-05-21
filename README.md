@@ -30,53 +30,8 @@ Database
 PostgreSQL / MongoDB
 Browser Extension
 Chrome Extension API
-Project Architecture
-User Input / News URL
-          ↓
-Frontend / Chrome Extension
-          ↓
-FastAPI Backend API
-          ↓
-NLP Preprocessing
-          ↓
-ML / BERT Model
-          ↓
-Prediction + Confidence Score
-          ↓
-Explainability Module
-          ↓
-Final Result Display
-Folder Structure
-fake-news-detector/
-│
-├── data/
-│   ├── Fake.csv
-│   └── True.csv
-│
-├── notebooks/
-│   ├── 01_data_analysis.ipynb
-│   ├── 02_preprocessing.ipynb
-│   └── 03_model_training.ipynb
-│
-├── backend/
-│   ├── app.py
-│   ├── routes/
-│   ├── models/
-│   └── utils/
-│
-├── frontend/
-│
-├── extension/
-│   ├── manifest.json
-│   ├── popup.html
-│   ├── popup.js
-│   └── content.js
-│
-├── saved_models/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
+
+
 Dataset
 
 This project uses publicly available Fake News datasets containing:
